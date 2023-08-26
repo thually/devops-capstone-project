@@ -23,6 +23,8 @@ echo "export GITHUB_ACCOUNT=$GITHUB_ACCOUNT" >> ~/.bashrc
 echo 'export PS1="\[\e]0;\u:\W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ "' >> ~/.bashrc
 echo "source ~/venv/bin/activate" >> ~/.bashrc
 echo "cd /home/project/devops-capstone-project" >> ~/.bashrc
+echo "git config --global user.email "alsalazarm@unal.edu.co"" >> ~/.bashrc
+echo "git config --global user.name Ale" >> ~/.bashrc
 
 echo "Installing Python depenencies..."
 source ~/venv/bin/activate && python3 -m pip install --upgrade pip wheel
